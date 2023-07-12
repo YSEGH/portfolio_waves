@@ -1,0 +1,107 @@
+html,
+body {
+  font-family: system-ui, Segoe UI, Helvetica Neue, Arial;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  color: var(--color-dark-gray);
+}
+* {
+  user-select: none;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+:root {
+  --max-width-s: 640px;
+  --max-width-m: 1024px;
+  --max-width-l: 1440px;
+  --baseline: 30px;
+  --color-dark-gray: #212121;
+}
+img {
+  max-width: 100%;
+  width: auto;
+}
+.app {
+  position: relative;
+}
+p {
+  font-size: 20px;
+}
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 120px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+h4 {
+  font-size: 40px;
+}
+
+h5 {
+  font-size: 28px;
+  margin: 0 0 1rem;
+}
+
+h6 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 0 0 1rem;
+  width: 100%;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 68px;
+  list-style-type: none;
+}
+p {
+  margin: 0;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 68px;
+  width: 100%;
+}
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 25px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 18px;
+  }
+}

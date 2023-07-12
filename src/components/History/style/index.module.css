@@ -1,0 +1,27 @@
+.history {
+}
+.history__item {
+  background: linear-gradient(90deg, #cc4cff 0%, #56c2ff 100%);
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.history__container_item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.item__date {
+  text-transform: uppercase;
+  margin-right: 7.5rem;
+  font-weight: 600;
+}
+.item__description,
+.item__description h6 {
+  text-transform: capitalize;
+}
+.item__description h5 {
+  font-weight: 600;
+}
